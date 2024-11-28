@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Playwright Recorder</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 10px; }
+    button { margin: 5px; padding: 10px; width: 100%; }
+    input { margin: 5px 0; padding: 5px; width: 100%; }
+    ul { list-style-type: none; padding: 0; max-height: 200px; overflow-y: auto; }
+    li { padding: 5px; border-bottom: 1px solid #ccc; }
+    li:nth-child(even) { background-color: #f9f9f9; }
+  </style>
+</head>
+<body>
+  <button id="recordBtn">Start Recording</button>
+  <button id="stopBtn" disabled>Stop Recording</button>
+  <button id="replayBtn">Replay Last Script</button>
+  <button id="clearBtn">Clear Actions</button>
+  <h3>Recorded Actions:</h3>
+  <ul id="actionsList"></ul>
+  <script src="dist/popup.js"></script>
+</body>
+</html>

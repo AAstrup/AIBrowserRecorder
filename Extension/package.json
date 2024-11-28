@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "build": "tsc && node copy-assets.js"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.287"
+  }
+}
